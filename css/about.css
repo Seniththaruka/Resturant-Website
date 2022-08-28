@@ -1,0 +1,557 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Exo+2|Yatra+One');
+
+
+*{margin: 0px; padding: 0px;}
+
+.clearfix{
+	overflow: auto;
+}
+
+.wrapper{
+	margin: 0 auto;
+	max-width: 100%;	
+}
+
+
+
+/*Navigation section*/
+
+.nav{
+	width: 100%;
+	background-color: #111;
+}
+
+
+.nav .logo img{
+	float: left;
+	margin: 20px -15px 20px -10px;
+}
+
+
+.logo h1{
+	color: #d9d9d9;
+	padding-top: 37px;
+	float: left;
+	padding-right: 120px;
+	font-family: chiller;
+	font-size: 43px;
+}
+
+
+.topbar ul li{
+  display: inline-block;
+  margin-top: 16px;
+  padding: 33px; 
+  float: left;
+		
+}
+
+.topbar ul li a{
+  font-family: calibri;
+  color: #d9d9d9;
+  text-decoration: none;
+  font-size: 15px;
+  text-transform: uppercase;
+  background-color: #0d0d0d;
+  padding: 7px;
+  border: none;
+  transition: .3s;
+  border-radius: 2px;
+}
+
+.topbar ul li a:hover{
+	color: #d9d9d9;
+	background: #f12020;
+
+}
+
+.topbar .current {
+	color: #d9d9d9;
+	background: #f12020;
+}
+
+
+.log-reg{
+	float: right;
+	padding-top: 20px;
+	padding-right: 15px;
+	
+}
+
+.log-reg button{
+  font-family: calibri;
+  font-size: 15px;
+  padding :10px;
+  cursor: pointer;
+  width: 90px;
+  text-transform: uppercase;
+  background-color: #f12020;
+  border:none;
+  border-radius: 3px;
+  color: #d9d9d9;
+  transition: .3s;
+
+}
+
+.log-reg  button:hover{
+	background-color:  #1a1a1a;
+}
+
+/*Navigation Section*/
+
+
+
+
+/*main image Section*/
+
+.mainimgabout{
+	background: url('../img/About us/headimg.jpg') center no-repeat fixed;
+	background-size: cover;
+	height: 600px;
+}
+	
+
+.mainimgabout h1{
+	padding-top: 190px;
+	text-align: center;
+	color: #f2f2f2;
+	text-transform: uppercase;
+	font-family: Lucida Calligraphy;
+	font-size: 85px;
+	font-weight: normal;
+}
+
+.mainimgabout hr{
+	width: 600px;
+	margin-left: 380px;
+	height:  2px;
+	background-color: #f2f2f2;
+	border: none;
+	position: relative;
+	bottom:30px;
+
+}
+
+/*main image Section*/
+
+
+
+
+/*Description of about us*/
+
+.description{
+	margin-bottom: 100px;
+	margin-top: 100px;
+	margin-left: 300px;
+	margin-right: 300px;
+	text-align: center;
+}
+
+.desc h2{
+	margin-bottom: 30px;
+	text-transform: uppercase;
+	font-family: Edwardian Script ITC;
+	font-size: 30px;
+	word-spacing: 5px;
+  font-weight: normal;
+}
+
+.desc p{
+	font-family: calibri;
+	line-height: 1.6;
+	color: #333333;
+}
+
+/*Description of about us*/
+
+
+
+
+/*Parallax image Section*/
+
+.parallaxabout{
+	background: url('../img/About us/parallax.jpg') center no-repeat fixed;
+	background-size: cover;
+	height: 400px;
+}
+	
+
+.parallaxabout h1{
+	padding-top: 110px;
+	text-align: center;
+	color: #f2f2f2;
+	text-transform: uppercase;
+	font-family: Pristina;
+	font-size: 75px;
+	font-weight: normal;
+}
+
+/*Parallax image Section*/
+
+
+
+
+/*About page food Section*/
+
+.ACfood{
+	max-width: 100%;
+	margin-top: 100px;
+
+}
+
+
+.ACfimg img{
+	width: 600px;
+	margin-left: 100px;
+	float: left;
+}
+
+.ACfdesc{
+	background-color: #f2f2f2;
+	padding: 30px;
+	max-width: 400px;
+	float: right;
+	margin-top: 60px;
+	position: relative;
+	right: 220px;
+
+}
+
+.ACfdesc h2{
+	text-align: center;
+	text-transform: uppercase;	
+	font-family: Edwardian Script ITC;
+	word-spacing: 5px;
+}
+
+.ACfdesc p{
+	padding-top: 20px;
+	text-align: center;
+	font-family: Calibri;
+	color:  #333333;
+}
+
+
+/*About page food Section*/
+
+
+
+
+/*About page people Section*/
+
+.ACpeople{
+	max-width: 100%;
+	margin-top: 100px;
+	margin-bottom: 70px;
+}
+
+
+.ACpimg img{
+	width: 600px;
+	margin-right: 100px;
+	float: right;
+}
+
+.ACpdesc{
+	background-color: #f2f2f2;
+	padding: 30px;
+	max-width: 400px;
+	float: left;
+	margin-top: 98px;
+	position: relative;
+	left: 220px;
+
+}
+
+.ACpdesc h2{
+	text-align: center;
+	text-transform: uppercase;	
+	font-family: Edwardian Script ITC;
+	word-spacing: 5px;
+}
+
+.ACpdesc p{
+	padding-top: 20px;
+	text-align: center;
+	font-family: Calibri;
+	color:  #333333;
+}
+
+/*About page people Section*/
+
+
+
+
+/*Team Section*/
+
+.teamsection{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Exo 2', sans-serif;
+}
+
+
+.ourteamheading{
+  margin-top: 130px;
+  margin-bottom: 80px;
+  text-align: center;
+}
+
+.ourteamheading h1{
+  font-family: Edwardian Script ITC;
+  font-size: 58px;
+  color: #0d0d0d;
+  margin-bottom: 45px;
+  font-weight: normal;
+}
+
+.our_team{
+  width: auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.our_team .team_member{
+  width: 250px;
+  margin: 5px;
+  background: #f2f2f2;
+  padding: 20px 10px;
+}
+
+.our_team .team_member .member_img{
+  background: #ffffff;
+  max-width: 190px;
+  width: 100%;
+  height: 190px;
+  margin: 0 auto;
+  border-radius: 50%;
+  padding: 5px;
+  position: relative;
+  cursor: pointer;
+}
+
+.our_team .team_member .member_img img{
+  width: 100%;
+  height: 100%;
+}
+
+.our_team .team_member h3{
+  text-transform: uppercase;
+  font-size: 18px;
+  line-height: 18px;
+  letter-spacing: 2px;
+  margin: 15px 0 0px;
+}
+
+.our_team .team_member span{
+  font-size: 10px;
+}
+
+.our_team .team_member p{
+  margin-top: 20px;
+  font-size: 14px;
+  line-height: 20px;
+  color: #333333;
+}
+
+.our_team .team_member .member_img .social_media{
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  background: rgba(0,0,0,0.65);
+  width: 95%;
+  height: 95%;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: scale(0);
+   transition: all 0.5s ease;
+}
+
+.our_team .team_member .member_img .social_media .item{
+  margin: 0 10px;
+}
+
+.our_team .team_member .member_img .social_media .fab{
+  color: #b30000;
+  font-size: 20px;
+}
+
+.our_team .team_member .member_img:hover .social_media{
+  transform: scale(1);
+}
+
+/*Team Section*/
+
+
+
+
+
+/*Footer Section*/
+
+footer{
+  color: #d9d9d9;
+  box-sizing: border-box;
+  bottom: 0px;
+  width: 100%;
+  background: #111;
+  font-family: 'Poppins', sans-serif;
+}
+.main-content{
+  display: flex;
+}
+.main-content .box{
+  flex-basis: 50%;
+  padding: 10px 20px;
+}
+.box h2{
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.125rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.box .content{
+  margin: 20px 0 0 0;
+  position: relative;
+}
+.box .content:before{
+  position: absolute;
+  content: '';
+  top: -10px;
+  height: 2px;
+  width: 100%;
+  background: #1a1a1a;
+}
+.box .content:after{
+  position: absolute;
+  content: '';
+  height: 2px;
+  width: 15%;
+  background: #f12020;
+  top: -10px;
+}
+.left .content p{
+  text-align: justify;
+}
+.left .content .social{
+  margin: 20px 0 0 0;
+}
+.left .content .social a{
+  padding: 0 2px;
+}
+.left .content .social a span{
+  color: #d9d9d9;
+  box-sizing: border-box;
+  height: 40px;
+  width: 40px;
+  background: #1a1a1a;
+  line-height: 40px;
+  text-align: center;
+  font-size: 18px;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+.left .content .social a span:hover{
+  background: #f12020;
+}
+.center .content .fas{
+  font-size: 1.4375rem;
+  background: #1a1a1a;
+  height: 45px;
+  width: 45px;
+  line-height: 45px;
+  text-align: center;
+  border-radius: 50%;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.center .content .fas:hover{
+  background: #f12020;
+}
+.center .content .text{
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.0625rem;
+  font-weight: 500;
+  padding-left: 10px;
+}
+.center .content .phone{
+  margin: 15px 0;
+}
+.right form .text{
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.0625rem;
+  margin-bottom: 2px;
+  color: #656565;
+}
+.right form .msg{
+  margin-top: 10px;
+}
+.right form input, .right form .msgForm{
+  font-family: 'Poppins', sans-serif;
+  width: 100%;
+  font-size: 1.0625rem;
+  background: #151515;
+  padding-left: 10px;
+  border: 1px solid #222222;
+}
+.right form input:focus,
+.right form .msgForm:focus{
+  outline-color: #3498db;
+}
+.right form input{
+  height: 35px;
+}
+.right form .btn{
+  margin-top: 10px;
+}
+.right form .btn button{
+  font-family: 'Poppins', sans-serif;
+  height: 40px;
+  width: 100%;
+  border: none;
+  outline: none;
+  background: #f12020;
+  font-size: 1.0625rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: .3s;
+  color: white;
+}
+.right form .btn button:hover{
+  background: #000;
+}
+.bottom center{
+  font-family: 'Poppins', sans-serif;
+  padding: 5px;
+  font-size: 0.9375rem;
+  background: #151515;
+}
+.bottom center span{
+  color: #656565;
+}
+.bottom center a{
+  color: #f12020;
+  text-decoration: none;
+}
+.bottom center a:hover{
+  text-decoration: underline;
+}
+@media screen and (max-width: 900px) {
+  footer{
+    position: relative;
+    bottom: 0px;
+  }
+  .main-content{
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .main-content .box{
+    margin: 5px 0;
+  }
+}
+
+/*Footer Section*/
